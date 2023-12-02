@@ -1,0 +1,131 @@
+:root{
+    --font-main:"Caudex", serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: var(--font-main);
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar h2{
+    font-size: xx-large;
+    margin-left: 30px;
+
+}
+
+.bars{
+    padding: 30px;
+}
+
+.bars a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: larger;
+    text-align: center;
+}
+
+
+/* Projects */
+
+.main h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.portfolio{
+    display: flex; 
+    justify-content: space-evenly;  
+    margin:30px;
+}
+
+
+.card {
+    margin: 40px;
+    max-width: 360px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 1rem;
+    gap: 1rem;
+}
+  
+.card img {
+    width: 50%;
+    margin-bottom: 1rem;
+    padding-left: 80px;
+}
+  
+.card h2 {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+}
+  
+.card p {
+    font-weight: 200;
+}
+  
+.text-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.show{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+}
+
+
+/* SKILLS */
+
+.skills {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+.skills h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.skills-container {
+    display: flex;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+}
+  
+.skills__item {
+    margin-bottom: 1rem;
+    cursor: pointer;
+    padding: 20px;
+}
+  
+.skills__item img:hover {
+    transform: scale(1.1);
+    transition: ease-out 0.3s;
+}
+  
+.skills img {
+    max-width: 80px;
+    margin-bottom: -5px;
+}
+  
+
+/* Footer */
+
+.footer h4{
+    text-align: center;
+}
